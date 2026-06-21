@@ -296,6 +296,16 @@ const i18n = {
     'skills-tag':   'What I know',
     'skills-title': 'My <span class="gradient-text">Skills</span>',
 
+    'projects-tag':   'Featured Work',
+    'projects-title': 'Recent <span class="gradient-text">Projects</span>',
+    'projects-gymbuddy-subtitle': 'Personal Next.js Test',
+    'projects-gymbuddy-desc': 'Personal project testing Next.js + Prisma workflows. Booking platform with credit systems, instructor management, and advanced reporting for activities and classes.',
+    'projects-tiff-subtitle': 'Papyri Reconstruction Tool',
+    'projects-tiff-desc': 'Reconstructs burned and mistreated papyri using multi-image stitching and high-precision measurement tools. Won EU Seal of Excellence.',
+    'projects-sensor-subtitle': 'Real-Time Data Dashboard',
+    'projects-sensor-desc': 'Vue 3 + TypeScript dashboard for monitoring IoT sensor data with live charts, historical analytics, and responsive data tables.',
+    'projects-award': 'Seal of Excellence',
+
     'exp-tag':      "Where I've worked",
     'exp-title':    'Work <span class="gradient-text">Experience</span>',
     'exp-current':  'Current',
@@ -353,6 +363,16 @@ const i18n = {
 
     'skills-tag':   'Cosa so fare',
     'skills-title': 'Le mie <span class="gradient-text">Competenze</span>',
+
+    'projects-tag':   'Lavori in Evidenza',
+    'projects-title': 'Progetti <span class="gradient-text">Recenti</span>',
+    'projects-gymbuddy-subtitle': 'Test Personale Next.js',
+    'projects-gymbuddy-desc': 'Progetto personale per testare flussi di lavoro Next.js + Prisma. Piattaforma di prenotazione con sistemi di credito, gestione istruttori e reportistica avanzata per attività e corsi.',
+    'projects-tiff-subtitle': 'Strumento di Ricostruzione Papiri',
+    'projects-tiff-desc': 'Ricostruisce papiri bruciati e maltrattati utilizzando cuciture multi-immagine e strumenti di misurazione ad alta precisione. Ha vinto il Sigillo di Eccellenza UE.',
+    'projects-sensor-subtitle': 'Dashboard Dati in Tempo Reale',
+    'projects-sensor-desc': 'Dashboard Vue 3 + TypeScript per il monitoraggio dei dati dei sensori IoT con grafici live, analitiche storiche e tabelle dati responsive.',
+    'projects-award': 'Sigillo di Eccellenza',
 
     'exp-tag':      'Dove ho lavorato',
     'exp-title':    'Esperienza <span class="gradient-text">Lavorativa</span>',
