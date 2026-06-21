@@ -4,6 +4,8 @@
 # Except these
 !.gitignore
 !index.html
+!sensor-demo.html
+!tiff-demo.html
 !style.css
 !script.js
 !assets/
