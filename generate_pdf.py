@@ -116,6 +116,30 @@ async def generate():
             // Hide the blinking cursor next to the typed text
             const blink = document.querySelector('.cursor-blink');
             if (blink) blink.style.display = 'none';
+
+            // Add a visible, clickable link in the exported PDF.
+            if (!document.getElementById('pdf-portfolio-link')) {
+                const link = document.createElement('a');
+                link.id = 'pdf-portfolio-link';
+                link.href = 'https://danilocappelletti.github.io/personalPortfolio/';
+                link.textContent = 'Portfolio: https://danilocappelletti.github.io/personalPortfolio/';
+                link.target = '_blank';
+                link.rel = 'noopener noreferrer';
+                link.style.cssText = [
+                    'position: fixed',
+                    'left: 24px',
+                    'bottom: 16px',
+                    'z-index: 99999',
+                    'font-family: Arial, sans-serif',
+                    'font-size: 13px',
+                    'color: #7dd3fc',
+                    'text-decoration: underline',
+                    'background: rgba(15, 14, 23, 0.75)',
+                    'padding: 6px 10px',
+                    'border-radius: 6px'
+                ].join(';');
+                document.body.appendChild(link);
+            }
         }""")
 
         # Brief pause for style changes to settle
